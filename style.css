@@ -1,0 +1,96 @@
+
+body{
+    background-color: orange;
+}
+#header {
+	color: white;
+	height: 80px;
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+}	
+#header h1{
+	font-size: 2.3em;
+	text-align: center;
+    font-weight: 300;
+    font-family: 'Sriracha', cursive;
+}
+a{
+    margin: 1em;
+}
+nav{
+    list-style-type: none;
+    background-color: rgb(143, 203, 238);
+    width: 100%;
+    height: 2em;
+    margin-top: 6em;
+    position: relative;
+}
+a:hover{
+    background-color: yellow;
+    color: violet;
+}
+hr.blanco{
+    background-color: white;
+    height: 1.5em;
+    width: 100%;
+    position: relative;
+    margin-top: 0;
+}
+div.descripcion{
+    background-color: blue;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+img{
+    height: 10em;
+    width: 10em;
+    float: left;
+}
+.descripcion p{
+    color: blue;
+    background-color: white;
+}
+.ordenador{
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+    background-color: rgb(143, 203, 238);
+}
+.ordenador p{
+    color: red;
+    border: solid red 1em;
+    border-left: none;
+    border-right: none;
+}
+footer{
+    text-align: center;
+    background-color: rgb(255, 114, 71);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+span.amarillo{
+    background-color: yellow;
+}
+span.tachado{
+    text-decoration: line-through;
+}
+li{
+    list-style-type: katakana-iroha;
+}
+ul{
+    margin-left: 2em;
+    background-color: wheat;
+}
+.diez li{
+    list-style-type: hebrew;
+    background-color: teal;
+}
+.diez ol{
+    list-style-type: upper-roman;
+    background-color: red;
+}
